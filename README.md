@@ -1,4 +1,4 @@
-# CNPM-FINAL (Contract Management System)
+# Contract Management System
 
 A Windows Form application for managing contracts, clients, and related data.
 
