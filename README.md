@@ -1,6 +1,7 @@
 # Contract Management System
 
 A Windows Form application for managing contracts, clients, and related data.
+This project was built following a 3-tier architecture (GUI – BLL – DAL – DTO) and provides a clean separation between logic and data access.
 
 ## 🧩 Features
 - Create, update, and search contracts
