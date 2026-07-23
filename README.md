@@ -10,7 +10,7 @@ This repository is a Windows desktop application for contract management, paymen
 - Source code: [CNPM-FINAL/CNPM-FINAL](CNPM-FINAL/CNPM-FINAL)
 - Database schema: [CNPM-FINAL/table.sql](CNPM-FINAL/table.sql)
 - Stored procedures and triggers: [CNPM-FINAL/trg_proc.sql](CNPM-FINAL/trg_proc.sql)
-- Existing testing artifact: [Testing/N03_TaiLieuTesting.pdf](Testing/N03_TaiLieuTesting.pdf)
+- Existing testing artifact: [test/N03_TaiLieuTesting.pdf](test/N03_TaiLieuTesting.pdf)
 - UX/UI design artifacts: [UX-UI](UX-UI)
 
 ## System architecture
