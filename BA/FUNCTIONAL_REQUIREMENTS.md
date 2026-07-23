@@ -1,0 +1,14 @@
+# Functional Requirements
+
+| FR ID | Module | Requirement | Actor | Preconditions | Expected Behavior | Priority | Evidence |
+|---|---|---|---|---|---|---|---|
+| FR-001 | Authentication | User must log in with valid username and password. | User | Registered account exists | System verifies credential and loads user context. | High | [CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs#L24-L42) |
+| FR-002 | User Management | Admin may create and update users. | Admin | Admin logged in | Create/update stored user profile and default password rules. | High | [CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs#L64-L116) |
+| FR-003 | Permission Management | Admin may update permission sets for non-admin users. | Admin | Admin logged in | Permission rows are changed via stored procedure. | High | [CNPM-FINAL/CNPM-FINAL/GUI/SubItem/User/UpdatePermissionGUI.cs](../CNPM-FINAL/CNPM-FINAL/GUI/SubItem/User/UpdatePermissionGUI.cs#L209-L251) |
+| FR-004 | Contract Management | Sale can create a contract. | Sale | User has CREATE_Contract permission | A contract record is inserted and assigned to the current user. | High | [CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs#L15-L33) |
+| FR-005 | Contract Management | Sale can update a contract. | Sale | Valid contract code and update permission | Update stored contract fields and related ownership. | High | [CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs#L35-L65) |
+| FR-006 | Contract Management | System prevents deletion when payment stage or task exists. | Sale / Admin | Contract has dependent records | Delete operation is blocked with business exception. | High | [CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/ContractBLL.cs#L67-L87) |
+| FR-007 | Task Management | User can create and track task progress on a contract. | Sale | Contract exists | A task record is saved with assigned user and period. | High | [CNPM-FINAL/CNPM-FINAL/BLL/TaskProgressBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/TaskProgressBLL.cs#L14-L32) |
+| FR-008 | Payment Management | Accountant can create/update payments. | Accountant | Contract exists and payment date valid | Payment stage inserted/updated through stored procedure. | High | [CNPM-FINAL/CNPM-FINAL/BLL/PaymentStageBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/PaymentStageBLL.cs#L14-L46) |
+| FR-009 | Commission Logic | Completed payment creates commission record. | System | Payment status is Completed | Commission amount and date are computed and stored. | High | [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql#L120-L190) |
+| FR-010 | Reporting | Director or privileged user can review reports. | Director / Accountant | Report access granted | Reports display contract, payment, and commission data. | Medium | [CNPM-FINAL/CNPM-FINAL/BLL/ReportBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/ReportBLL.cs#L8-L33) |

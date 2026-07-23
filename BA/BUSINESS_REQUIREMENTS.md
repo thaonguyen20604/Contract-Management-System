@@ -1,0 +1,14 @@
+# Business Requirements
+
+| BR ID | Business Requirement | Rationale | Stakeholder | Priority | Status | Source |
+|---|---|---|---|---|---|---|
+| BR-001 | The system shall support user authentication for registered staff members. | Access control is needed before any business operation. | Admin, Sale, Accountant, Director | High | Implemented | [CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/UserBLL.cs#L24-L42) |
+| BR-002 | The system shall maintain contract information with associated user ownership. | Contract ownership is required for operational control and reporting. | Sale | High | Implemented | [CNPM-FINAL/CNPM-FINAL/DAL/ContractDAL.cs](../CNPM-FINAL/CNPM-FINAL/DAL/ContractDAL.cs#L10-L38) |
+| BR-003 | The system shall support task progress tracking for each contract. | Operational follow-up is necessary to monitor execution progress. | Sale | High | Implemented | [CNPM-FINAL/CNPM-FINAL/DAL/TaskProgressDAL.cs](../CNPM-FINAL/CNPM-FINAL/DAL/TaskProgressDAL.cs#L11-L44) |
+| BR-004 | The system shall support payment stage tracking. | Financial milestones need to be recorded and validated. | Accountant | High | Implemented | [CNPM-FINAL/CNPM-FINAL/DAL/PaymentStageDAL.cs](../CNPM-FINAL/CNPM-FINAL/DAL/PaymentStageDAL.cs#L7-L47) |
+| BR-005 | The system shall prevent payment dates outside the contract range. | Data consistency and business rule enforcement required. | Accountant | High | Implemented | [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql#L34-L80) |
+| BR-006 | The system shall prevent total payment stage amount from exceeding contract value. | Protects contract financial integrity. | Accountant | High | Implemented | [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql#L82-L118) |
+| BR-007 | The system shall calculate commission based on payment completion and configured commission percentage. | Commission output is a business objective of the application. | Sale, Director | High | Implemented | [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql#L120-L190) |
+| BR-008 | The system shall enable role-based permissions per module. | Different user responsibilities require restricted access. | Admin | High | Implemented | [CNPM-FINAL/CNPM-FINAL/GUI/SubItem/User/UpdatePermissionGUI.cs](../CNPM-FINAL/CNPM-FINAL/GUI/SubItem/User/UpdatePermissionGUI.cs#L14-L38) |
+| BR-009 | The system shall provide report views for business and payment information. | Management reporting is a core operational need. | Director, Accountant | Medium | Implemented | [CNPM-FINAL/CNPM-FINAL/BLL/ReportBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/ReportBLL.cs#L8-L33) |
+| BR-010 | The system shall provide export capabilities for list views. | Users need reusable export for documentation and review. | All roles with access | Medium | Implemented | [CNPM-FINAL/CNPM-FINAL/BLL/FileBLL.cs](../CNPM-FINAL/CNPM-FINAL/BLL/FileBLL.cs#L15-L131) |
