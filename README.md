@@ -1,4 +1,4 @@
-# Final Handoff Overview
+# Overview
 
 ## Project
 Contract Management System
@@ -38,7 +38,7 @@ This repository is a Windows desktop application for contract management, paymen
 - BA pack: [BA](BA)
 - Test pack: [test](test)
 - UX/UI pack: [UX-UI](UX-UI)
-- Final handoff summary: [FINAL_HANDOFF.md](FINAL_HANDOFF.md)
+- SUMMARY: [SUMMARY.md](SUMMARY.md)
 
 ## Submission status
 The repository now has a clean, evidence-based documentation pack that separates:
