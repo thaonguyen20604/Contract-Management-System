@@ -1,4 +1,4 @@
-# Final Handoff Document
+# Document
 
 ## 1. Project Summary
 This repository contains a Windows desktop contract management system built with C# WinForms and SQL Server. The application supports user authentication, role-based permissions, contract lifecycle management, task tracking, payment stage tracking, commission calculation, reporting, and export workflows.
@@ -56,10 +56,3 @@ Important note:
 - No automated test framework is present.
 - The project contains a hardcoded API key in the chatbot support workflow and should be reviewed before production handoff.
 - Some UX findings are evidence-based from the interface structure, but not from a formal usability research session.
-
-## 9. Submission Note
-This handoff package is intended to be submission-ready and evidence-based. It clearly separates:
-- implemented behavior confirmed in code and SQL,
-- documented test evidence already present in the repo,
-- UX/UI observations derived from desktop form structure and design artifacts,
-- and explicit gaps where live verification is still needed.
