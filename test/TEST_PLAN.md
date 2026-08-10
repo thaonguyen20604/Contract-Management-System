@@ -2,7 +2,7 @@
 
 ## Introduction
 ### Purpose
-This test plan is derived from the existing repository test artifact [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf). The intent is to document the test coverage and findings already present in the workspace evidence, rather than to invent new execution results.
+This test plan is derived from the existing repository test artifact [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf). The intent is to document the test coverage and findings already present in the workspace evidence, rather than to invent new execution results.
 
 ### Project Overview
 The implemented system is a WinForms contract management application with authentication, user management, contract management, task tracking, payment stage management, commission calculation, and reporting support.
