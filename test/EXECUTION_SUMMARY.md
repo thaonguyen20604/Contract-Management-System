@@ -5,7 +5,7 @@ This document summarizes the testing evidence that already exists in the reposit
 
 ## Evidence Base
 The only execution-related artifact currently available in the workspace is:
-- [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf)
+- [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf)
 
 ## What the PDF Confirms
 Based on the extracted content from the PDF, the repository documents the following testing outcomes:
