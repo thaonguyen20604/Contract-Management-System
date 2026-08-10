@@ -31,12 +31,12 @@ The implemented system is a WinForms contract management application with authen
 ## Test Items
 | Module | Evidence Source |
 |---|---|
-| Authentication | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
-| User Management | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
-| Contract Management | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
-| Task Management | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
-| Payment Management | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
-| Commission / Report | [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf) |
+| Authentication | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
+| User Management | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
+| Contract Management | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
+| Task Management | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
+| Payment Management | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
+| Commission / Report | [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf) |
 | Database Rules | [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql) |
 
 ## Test Approach
@@ -48,7 +48,7 @@ The implemented system is a WinForms contract management application with authen
 - API testing: Not Available in the repository
 
 ## Test Environment
-- Source of truth test artifact: [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf)
+- Source of truth test artifact: [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf)
 - OS: Windows desktop environment
 - Application type: WinForms .NET desktop app
 - Runtime execution in current session: Not performed
