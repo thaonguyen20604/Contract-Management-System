@@ -1,6 +1,6 @@
 # Test Documentation Index
 
-This folder contains the test documentation package built from the existing repository artifact [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf).
+This folder contains the test documentation package built from the existing repository artifact [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf).
 
 ## Included documents
 - [TEST_PLAN.md](TEST_PLAN.md)
@@ -11,7 +11,7 @@ This folder contains the test documentation package built from the existing repo
 - [API_TESTING.md](API_TESTING.md)
 
 ## Evidence base
-- [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf)
+- [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf)
 - [CNPM-FINAL/CNPM-FINAL](../CNPM-FINAL/CNPM-FINAL)
 - [CNPM-FINAL/trg_proc.sql](../CNPM-FINAL/trg_proc.sql)
 
