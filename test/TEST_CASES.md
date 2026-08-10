@@ -1,6 +1,6 @@
 # Test Cases
 
-> Note: The cases below are derived from the existing testing artifact [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf). They reflect documented evidence already present in the repository, not fresh execution performed in the current session.
+> Note: The cases below are derived from the existing testing artifact [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf). They reflect documented evidence already present in the repository, not fresh execution performed in the current session.
 
 | Test Case ID | Module | Test Scenario | Expected Result | Documented Status | Evidence Source |
 |---|---|---|---|---|---|
