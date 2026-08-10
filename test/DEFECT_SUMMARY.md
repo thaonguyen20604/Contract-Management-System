@@ -1,7 +1,7 @@
 # Defect Summary
 
 ## Source of Evidence
-This defect summary is derived from the existing test artifact [Testing/N03_TaiLieuTesting.pdf](../Testing/N03_TaiLieuTesting.pdf), which documents pass/fail outcomes for static and dynamic testing activities.
+This defect summary is derived from the existing test artifact [N03_TaiLieuTesting.pdf](N03_TaiLieuTesting.pdf), which documents pass/fail outcomes for static and dynamic testing activities.
 
 ## Defects Documented in the Existing Test PDF
 
